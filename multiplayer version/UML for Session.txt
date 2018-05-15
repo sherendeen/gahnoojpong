@@ -1,0 +1,13 @@
+-player1:Socket
+-player2:Socket
+-sessionStatus:String
+
+-fromPlayer1:DataInputStream
+-toPlayer1:DataOutputStream
+-fromPlayer2:DataInputStream
+-toPlayer2:DataOutputStream
+
++Session(Socket,Socket,String)
++run():void
+
+-sendMove(DataOUtputStream, double):void

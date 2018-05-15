@@ -1,0 +1,11 @@
+-textLog:TextArea
+-stopServer:Button
+-PORT:int
+-sessionNumber:int
+-statusFromSession:String
+
++main(String[]):void (static)
+
++start(Stage):void
+
+-createScene():Scene

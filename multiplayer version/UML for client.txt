@@ -1,0 +1,25 @@
+Client : Application
+- struct: GameStruct
+- timer: AnimationTimer
+-fromServer: DataInputStream
+-toServer: DataOutputStream
+-HOST:String
+-PORT:int
+-isLeftPlayer:boolean
+-status:String
+-debugInfo:String
+-isGameStarted:boolean
+
+-connectToGameServer(Stage):void  (static)
++main(String[]):void
++start(Stage):void
+
+-handleKeyPresses(KeyEvent):void
+
+-sendMove():void
+
+-createContent():Parent
+
+-updateAndRedraw():void
+
+------------------------------------------
